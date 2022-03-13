@@ -1,0 +1,213 @@
+.welcome-section .pricing-text-par .pricing-text::before {
+    left: 10px;
+}
+
+.it-services-card-section{
+    margin-top: 110px;
+}
+
+.it-services-card-section .it-services-card-title{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.it-services-card-section .it-services-card-title h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.it-services-card-section .it-services-card-title h3 span{
+    color: #005de0;
+}
+
+.it-services-card-section .it-services-card{
+    border: 1px solid #ebebeb;
+    padding: 40px 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.it-services-card-img{
+   position: relative;
+   z-index: 1;
+}
+
+.it-services-card-img:before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e5eefc;
+    z-index: -1;
+}
+
+
+.it-services-card-section .it-services-card .it-services-card-text{
+   margin-top: 30px;
+}
+
+.it-services-card-section .it-services-card .it-services-card-text h4{
+    font-weight: 600;
+}
+
+.it-services-card-section .it-services-card .it-services-card-text p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4c4d56;
+    line-height: 30px;
+}
+
+
+.experience-section{
+    margin-top: 250px;
+    padding-bottom: 130px;
+    padding-top: 130px;
+    z-index: 100;
+}
+
+.experience-section .experience-img{
+    position: relative;
+    z-index: 1;
+}
+
+.experience-section .experience-img img{
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.services-video-btn{
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #005de0;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+
+.services-video-btn:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #005de0;
+}
+
+.experience-section .experience-precent p{
+    width: 70%;
+    font-size: 38px;
+}
+
+.experience-section .experience-precent p span{
+    color: #005de0;
+}
+
+.counter-section{
+    padding: 100px 0px;
+    transform: translateY(-152px);
+    text-align: center;
+}
+
+.counter-section h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.counter-section p{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.counter-section p a{
+    color: #005de0;
+    text-decoration: underline ;
+}
+
+.pricing-cards-section{
+    margin-top: 0px;
+}
+
+.slider-section{
+    margin-top: 150px;
+}
+
+
+footer{
+    margin-top: 0px;
+}
+
+main .footer-blue-background{
+    transform: translateY(120px);
+}
+
+
+@media screen and (max-width:1200px){
+    .services-video-btn{
+        left: 50%;
+    }
+}
+
+
+@media screen and (max-width:991px){
+    .it-services-card-section .it-services-card-title {
+        width: 100%;
+    }
+    .it-services-card-section .it-services-card-title h3 {
+        font-size: 35px;
+    }
+
+    .experience-section .experience-img img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .pricing-cards-section p{
+        width: 70%;
+    }
+    .welcome-section .pricing-text-par .pricing-text {
+        width: 100%;
+    }
+    .welcome-section .pricing-text-par .pricing-text::before {
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .welcome-section .pricing-text-par .pricing-text:before{
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:590px){
+    .experience-section .experience-img img{
+        width: 100%;
+    }
+    .experience-section .experience-precent p {
+        width: 100%;
+        font-size: 28px;
+    }
+    .pricing-cards-section p{
+        width: 100%;
+    }
+    .experience-section{
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .services-video-btn{
+        width: 70px;
+        height: 70px;
+    }
+}
